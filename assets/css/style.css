@@ -1,0 +1,43 @@
+
+.imagesize{
+    width: 150px  !important;
+    
+ 
+ 
+}
+
+/* .border-3 {
+    border-width:300px !important;
+    
+    border-top: 18px solid #4aaaa5 !important;
+} */
+
+.myfooter{
+
+    background-color: #666666 !important;
+    border-top: 18px solid #4aaaa5 !important;
+    color: #ffffff;
+
+}
+.navbar{
+    background-color: #ffffff !important; 
+    border-color: #cccccc !important;
+    color: #666666;
+    
+    
+}
+ 
+
+.navbar-brand{
+    background-color: #4aaaa5 !important;
+    color: #ffffff;
+    
+ 
+}
+
+.maincontainer{
+    border-color: #cccccc !important;
+    background-color: #ffffff;
+    
+    margin-bottom: 50px;
+}
