@@ -64,26 +64,28 @@
         <h1 class="mt-4 ml-3 ">Contact</h1>
         <hr class="ml-3">
     
-         
-            <form class="row single-post mt-5 no-gutters">
+         <form action="">
 
-                <div class="col-md-9">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
 
-                        First name:<br>
-                            <input type="text" name="firstname"><br>
-                        Last name:<br>
-                            <input type="text" name="lastname">
-                        Message
-                    
+            <div>
+                <label for="email"> E-mail: </label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
 
-                    <div class="single-post-content-wrapper p-3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
-                        <br><br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laborum non aliquam voluptates! Expedita voluptatibus nobis blanditiis debitis, reprehenderit modi atque assumenda earum quod quam ratione ex recusandae ipsam fugit?
-                      </div>
-                </div>
-            </form>
+
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" class="form-control" id="message" ></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-color mt-4 mb-5">Send</button>
+            </div>
+
+        </form>
         
 
     </div>

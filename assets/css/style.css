@@ -1,4 +1,10 @@
 
+.btn-color{
+    background-color: #4aaaa5;
+    color: #ffffff;
+
+}
+
 .imagesize{
     width: 150px  !important;
     
@@ -15,7 +21,7 @@
 .myfooter{
 
     background-color: #666666 !important;
-    border-top: 18px solid #4aaaa5 !important;
+    border-top: 6px solid #4aaaa5 !important;
     color: #ffffff;
 
 }
